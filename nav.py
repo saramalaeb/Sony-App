@@ -31,9 +31,9 @@ from matplotlib.figure import Figure
 nav = st.sidebar.radio("Navigation",["Intro","Dashboard","Prediction"])
 if nav == "Intro":
     st.write("Hey there!Welcome to My Streamlit Indiviudal Project.")
-    st.image('cute.jpg',width=100)
+ 
     st.write(" The App introduces you to the Sony Music Entertainment Dataset and predicts the Sales providing insights and sales decisions.")
-    st.image('sony.jpg',width=500)
+
     
     st.subheader("**To begin, Let's Introduce You to Sony Music Entertainemt Data ** 👇")
     st.subheader("Sony Music Entertainment is an American global music company.")
