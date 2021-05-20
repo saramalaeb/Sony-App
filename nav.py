@@ -24,6 +24,7 @@ st.set_page_config(
 )
 
 st.title("MSBA 370 -Streamlit Individual Project" )
+st.image('cute.jpg',width=100)
 st.title("Sony Dataset Dashboard & Sales Predictor")
 Sony_Data = pd.read_csv("Sony.csv")
 from matplotlib.figure import Figure
